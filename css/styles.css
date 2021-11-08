@@ -1,0 +1,119 @@
+body{
+    background-color: grey;
+    text-align: center;
+}
+
+.Titulo{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: 800;
+    font-style: italic inherit;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: chocolate;
+    color: beige;
+    padding: 5px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.Cuadrados{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.Cuadrado{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 36px 12px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 3px 36px 12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 36px 12px rgba(0,0,0,0.75);
+}
+
+.Cuadrado:hover{
+    cursor: pointer;
+}
+
+#Cuadrado1{
+    background-color: yellow;
+}
+
+#Cuadrado2{
+    background-color: green;
+}
+#Cuadrado3{
+    background-color: blue;
+}
+
+.Amarillo{
+    background-color: rgb(240, 240, 126);
+}
+
+.Verde{
+    background-color: rgb(103, 196, 103);
+}
+
+.Azul{
+    background-color: rgb(132, 132, 233);
+}
+
+.Ejercicio3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Alumnos{
+    margin-top: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 400px;
+    background-color: cornflowerblue;
+    color: blue;
+    text-align: center;
+    border: 2px solid black;
+}
+#Alumnos p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Ejercicio2{
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.area{
+    width: 100%;
+}
+
+.caracteres{
+    width: 100%;
+}
+
+.result{
+   width: fit-content;
+   margin: 0 auto;
+   border: solid black 2px;
+}
+
+#Cantidad{
+    padding: 10px;
+    background-color: aquamarine;
+    color: blue;
+    font-weight: 800; 
+}
